@@ -1,0 +1,17 @@
+/* element selector */
+p{
+    background-color: blue;
+}
+/* Id selector */
+#redBg{
+    background-color: red;
+}
+/* Class selector */
+.myClass{
+    background-color: rgb(230, 21, 167) border: 2px; solidcolor;
+}
+/* Group selector */
+span,div{
+    background-color: yellow;
+
+}

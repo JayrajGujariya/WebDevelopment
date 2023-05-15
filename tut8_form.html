@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>HTML FORM</title>
+</head>
+
+<body>
+   <h2>HTML FORM</h2>
+   <form action="backend.php">
+     
+      <div>
+         <label for="myName"> Name:</label>
+         <input type="text" name="myName" id="myName">
+      </div>
+      <br>
+      <div>
+         <label for="myRole">Role:</label>
+         <label for="myRole"></label>
+         <input type="text" name="myRole" id="myRole">
+      </div>
+      <br>
+      <div>
+         <label for="myEmail">Email: </label>
+         <input type="email" name="myEmail" id="myEmail">
+      </div>
+      <br>
+      <div>
+         <label for="myElegibility">Are you eledgible? </label>
+         <input type="checkbox" name="myElegibility" id="myElegibility">
+      </div>
+      <br>
+      <div>
+         <label for="myDob">Birth Date: </label>
+         <input type="date" name="myDob" id="myDob">
+      </div>
+      <br>
+      <div>
+         <label for="myBonous"> My Bonous Point: </label>
+        <input type="number" name="myBonous" id="myBonous">
+      </div>
+      <br>
+      <div>
+         <label for="myGender">Gender: </label>
+         
+        
+        
+         <input type="radio" name="myGender" id="Male">
+         <label for="Male">Male</label>
+         <input type="radio" name="myGender" id="Female">
+         <label for="Female">Female</label>
+         <input type="radio" name="myGender" id="Other">
+         <label for="Other">Other</label>
+      </div>
+      <br>
+      <div>
+         <label for="Feedback"> Please write Feedback: </label>
+        <br> <textarea name="Feedback" cols="80" rows="10" id="Feedback"></textarea>
+      </div>
+      <br>
+      <div>
+         <label for="myCar">Select Car: </label>
+         <select name="myCar" id="myCar">
+            <option value="Farari">Farari</option>
+            <option value="Thar">Thar</option>
+            <option value="Mahindra">Mahindra</option>
+         </select>
+      </div>
+      <br>
+      <div>
+         <input type="reset" value="Reset">
+
+         <input type="button" value="Submit Now">
+      </div>
+   </form>
+</body>
+
+</html>
